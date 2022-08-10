@@ -1,0 +1,88 @@
+{
+  "name": "electron-builder-sandbox-fix",
+  "version": "1.0.0",
+  "description": "Apply no-sandbox flag automatically when required to disable SUID sandbox helper errors",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "esw --color lib",
+    "lint:fix": "esw --color --fix lib",
+    "lint:watch": "esw --color --fix --watch --cache lib",
+    "format": "prettier --write lib",
+    "release": "standard-version",
+    "release:pre": "standard-version --prerelease"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergof/electron-builder-sandbox-fix.git"
+  },
+  "keywords": [
+    "electron",
+    "builder",
+    "electron-builder",
+    "sandbox",
+    "chromium",
+    "no-sandbox"
+  ],
+  "author": "Fándly Gergő",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gergof/electron-builder-sandbox-fix/issues"
+  },
+  "homepage": "https://github.com/gergof/electron-builder-sandbox-fix#readme",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-watch": "^8.0.0",
+    "prettier": "^2.7.1",
+    "standard-version": "^9.5.0"
+  },
+  "standard-version": {
+    "scripts": {
+      "prerelease": "git fetch --all --tags"
+    },
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "imp",
+        "section": "Improvements"
+      },
+      {
+        "type": "ci",
+        "section": "Build/CI"
+      },
+      {
+        "type": "chore",
+        "hidden": true
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "refactor",
+        "section": "Refactor"
+      },
+      {
+        "type": "test",
+        "section": "Testing"
+      }
+    ]
+  }
+
+}

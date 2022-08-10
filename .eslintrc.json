@@ -1,0 +1,14 @@
+{
+	"env": {
+		"es2021": true,
+		"node": true
+	},
+	"extends": ["eslint:recommended", "prettier", "plugin:import/recommended"],
+	"plugins": ["prettier", "import"],
+	"rules": {
+		"no-console": 0,
+		"prettier/prettier": 2,
+		"import/no-useless-path-segments": 1,
+		"import/order": [1, { "newlines-between": "always" }]
+	}
+}
