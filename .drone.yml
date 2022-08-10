@@ -3,7 +3,6 @@ kind: pipeline
 type: docker
 trigger:
   ref:
-    - refs/heads/master
     - refs/pull/**
     - refs/tags/*
 steps:
@@ -31,6 +30,6 @@ steps:
       - npm publish
 ---
 kind: signature
-hmac: 3a29b9e93b6407682840217ee2271d9438130c222dacf31f306bc17ebca4026e
+hmac: 06006a860897cf506e06a54bd22d0f94c3d4871ba1e2383cf4356fab59c165a9
 
 ...
