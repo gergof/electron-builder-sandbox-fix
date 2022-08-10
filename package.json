@@ -33,9 +33,6 @@
     "url": "https://github.com/gergof/electron-builder-sandbox-fix/issues"
   },
   "homepage": "https://github.com/gergof/electron-builder-sandbox-fix#readme",
-  "dependencies": {
-    "chalk": "^5.0.1"
-  },
   "devDependencies": {
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
@@ -44,6 +41,9 @@
     "eslint-watch": "^8.0.0",
     "prettier": "^2.7.1",
     "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
   },
   "standard-version": {
     "scripts": {
