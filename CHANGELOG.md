@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.0...v1.0.1) (2022-08-10)
+
+
+### Bug Fixes
+
+* Use chalk 4 for require ([ea9819c](https://github.com/gergof/electron-builder-sandbox-fix/commit/ea9819c42242b4e10fd4b3f7823c36fec6fe7daa))
+
 ## 1.0.0 (2022-08-10)
 
 
