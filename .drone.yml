@@ -1,3 +1,4 @@
+---
 kind: pipeline
 type: docker
 trigger:
@@ -28,3 +29,8 @@ steps:
       - npm set registry https://registry.npmjs.org
       - npm set //registry.npmjs.org/:_authToken $NPM_TOKEN
       - npm publish
+---
+kind: signature
+hmac: 3a29b9e93b6407682840217ee2271d9438130c222dacf31f306bc17ebca4026e
+
+...
