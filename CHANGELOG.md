@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.3...v1.0.4) (2022-08-10)
+
+
+### Bug Fixes
+
+* Chmod loader script to 755 ([c65c9ce](https://github.com/gergof/electron-builder-sandbox-fix/commit/c65c9cee5df62638c494f9ebcde453895f6ff982))
+
 ### [1.0.3](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.2...v1.0.3) (2022-08-10)
 
 
