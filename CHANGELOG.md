@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.5...v1.0.6) (2022-08-11)
+
+
+### Build/CI
+
+* Don't trigger builds on pushes to master ([bd910f0](https://github.com/gergof/electron-builder-sandbox-fix/commit/bd910f012fd420a322dd582a7e6c2b28eb006553))
+
+
+### Documentation
+
+* Fix typo ([d941b74](https://github.com/gergof/electron-builder-sandbox-fix/commit/d941b745433edea42de532a669530ca39a44b323))
+
 ### [1.0.5](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.4...v1.0.5) (2022-08-10)
 
 ### [1.0.4](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.3...v1.0.4) (2022-08-10)
