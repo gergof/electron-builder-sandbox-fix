@@ -1,7 +1,7 @@
 {
   "name": "electron-builder-sandbox-fix",
   "version": "1.0.5",
-  "description": "Apply no-sandbox flag automatically when required to disable SUID sandbox helper errors",
+  "description": "Apply no-sandbox flag automatically when required to fix SUID sandbox helper errors",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
