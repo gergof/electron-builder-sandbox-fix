@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.8](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.7...v1.0.8) (2022-08-12)
+
+
+### Bug Fixes
+
+* **loader:** Apply no-sandbox even when /proc file couldn't be read ([828690f](https://github.com/gergof/electron-builder-sandbox-fix/commit/828690fa8c8ad88f7dc5317ea9b351677833d982))
+
 ### [1.0.7](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.6...v1.0.7) (2022-08-12)
 
 
