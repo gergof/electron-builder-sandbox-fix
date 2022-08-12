@@ -1,6 +1,6 @@
 {
   "name": "electron-builder-sandbox-fix",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Apply no-sandbox flag automatically when required to fix SUID sandbox helper errors",
   "main": "lib/index.js",
   "scripts": {
