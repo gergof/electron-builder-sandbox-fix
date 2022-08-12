@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.9](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.8...v1.0.9) (2022-08-12)
+
+
+### Bug Fixes
+
+* **loader:** Update script dir if detected that we're running from /usr/bin ([9300ba6](https://github.com/gergof/electron-builder-sandbox-fix/commit/9300ba6e99ecaa601b8c3c34979e2cd89265ca7a))
+
 ### [1.0.8](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.7...v1.0.8) (2022-08-12)
 
 
