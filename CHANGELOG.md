@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.11](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.10...v1.0.11) (2024-02-02)
+
+
+### Bug Fixes
+
+* Consult the electronPlatformName variable to determine the build target platform instead of process.platform to support multi-platform builds ([a2251d7](https://github.com/gergof/electron-builder-sandbox-fix/commit/a2251d7d8f22be807d2142da0cf768c78d4cfb0a))
+
 ### [1.0.10](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.9...v1.0.10) (2022-08-12)
 
 
