@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.11...v1.1.0) (2025-04-09)
+
+
+### Features
+
+* Changed license to MIT ([7d318dc](https://github.com/gergof/electron-builder-sandbox-fix/commit/7d318dc3a020cbfdfe06cc216516d5f646e4a9f9))
+
 ### [1.0.11](https://github.com/gergof/electron-builder-sandbox-fix/compare/v1.0.10...v1.0.11) (2024-02-02)
 
 
