@@ -28,7 +28,7 @@
     "no-sandbox"
   ],
   "author": "Fándly Gergő",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gergof/electron-builder-sandbox-fix/issues"
   },
